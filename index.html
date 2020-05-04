@@ -26,11 +26,12 @@
         .thin-gray-box {
             width: 500px;
             height: 40px;
-            border-color: gray;
-            border-width: 2px;
+            border-color: lightgrey;
+            border-width: 1px;
             border-style: solid;
             border-radius: 30px;
             margin: auto;
+            blur-radius: 2px;
         }
     
     </style>
@@ -40,7 +41,7 @@
                 <ul>
                     <li href="#" style="float: left; padding: 5px;"><a>About</a></li>
                     <li href="#" style="float: left; padding: 5px;"><a>Store</a></li>
-                     <li href="#" style="float: right; padding: 5px; background: cyan;"><a>Sign In</a></li>
+                     <li href="#" style="float: right; padding: 5px; background: cyan;border-radius: 2px;"><a>Sign In</a></li>
                     <li href="#" style="float: right; padding: 5px;"><a>Images</a></li>
                     <li href="#" style="float: right; padding: 5px;"><a>Gmail</a></li>
                 </ul>
@@ -60,11 +61,14 @@
                 <li href="#" style="float: center; padding: 10px; background-color: lightgray;"><a>I'm Feeling Lucky</a></li>
             </ul>
         </div>
-        <div style="text-align: center;margin-bottom: 150px; font-family: Arial, Helvetica, sans-serif; font-size: 13px;">
-            <p>Google offered in <a href="#">Francais</a></p>
+        <form>
+            <input style="background-color: lightgrey;">
+            <button type="submit">Google Search</button>
+            <button type="submit">I'm Feeling Lucky</button>
+        </form>
         </div>
-        <div href="#" style="line-height: 40px; font-family: Arial, Helvetica, sans-serif; font-size: 13px;"><p style="background-color: lightgray;">Canada</p></div>
         <footer>
+            <div href="#" style="line-height: 40px; font-family: Arial, Helvetica, sans-serif; font-size: 13px;"><p style="background-color: lightgray;">Canada</p></div>
             <nav>
                 <ul style="background-color: lightgray;">
                     <li href="#" style="float: left; padding: 5px;"><a>Advertising</a></li>
